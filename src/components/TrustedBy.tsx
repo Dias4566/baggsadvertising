@@ -8,7 +8,7 @@ const TrustedBy = () => {
   return (
     <section className="py-16 bg-secondary overflow-hidden">
       <div className="mb-8">
-        <h3 className="text-2xl font-bold text-center text-secondary-foreground">
+        <h3 className="text-3xl md:text-4xl font-bold text-center text-secondary-foreground">
           Trusted By Leading Brands
         </h3>
       </div>

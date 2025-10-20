@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-[#B5ABA7]/30 px-6 py-20">
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight">
           Make Your Brand
           <span className="block text-primary">Impossible to Miss</span>
         </h1>
