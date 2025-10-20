@@ -4,8 +4,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Contact = () => {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,10 +24,10 @@ const Contact = () => {
     <section className="py-24 px-6 bg-[#B5ABA7]/30">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-black text-center mb-4">
-          Let's Work Together
+          {t('contact.title')}
         </h2>
         <p className="text-base text-center text-muted-foreground mb-16 font-medium">
-          Ready to elevate your brand? Get in touch.
+          {t('contact.description')}
         </p>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -33,7 +35,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <Input 
-                  placeholder="Your Name"
+                  placeholder={t('contact.name')}
                   value={formData.name}
                   onChange={(e) => setFormData({...formData, name: e.target.value})}
                   required
@@ -43,7 +45,7 @@ const Contact = () => {
               <div>
                 <Input 
                   type="email"
-                  placeholder="Your Email"
+                  placeholder={t('contact.email')}
                   value={formData.email}
                   onChange={(e) => setFormData({...formData, email: e.target.value})}
                   required
@@ -52,7 +54,7 @@ const Contact = () => {
               </div>
               <div>
                 <Textarea 
-                  placeholder="Tell us about your project"
+                  placeholder={t('contact.message')}
                   value={formData.message}
                   onChange={(e) => setFormData({...formData, message: e.target.value})}
                   required
@@ -65,7 +67,7 @@ const Contact = () => {
                 size="lg"
                 className="w-full text-base font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6"
               >
-                Send Message
+                {t('contact.send')}
               </Button>
             </form>
           </div>

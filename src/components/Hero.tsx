@@ -1,31 +1,51 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles, Zap, TrendingUp } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Hero = () => {
+  const { t } = useLanguage();
+  
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#B5ABA7]/30 px-6 py-20">
-      <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight">
-          Make Your Brand
-          <span className="block text-primary">Impossible to Miss</span>
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#B5ABA7]/30 via-background to-primary/5 px-6 py-20 relative overflow-hidden">
+      {/* Animated background elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <Sparkles className="absolute top-1/4 right-1/4 w-8 h-8 text-primary/20 animate-bounce" />
+        <Zap className="absolute bottom-1/3 left-1/4 w-6 h-6 text-accent/30 animate-pulse" />
+        <TrendingUp className="absolute top-1/3 left-1/3 w-7 h-7 text-primary/20 animate-bounce delay-500" />
+      </div>
+
+      {/* Language switcher */}
+      <div className="absolute top-8 right-8 z-10">
+        <LanguageSwitcher />
+      </div>
+
+      <div className="max-w-6xl mx-auto text-center relative z-10">
+        <h1 className="text-7xl md:text-8xl lg:text-9xl font-black mb-6 tracking-tight leading-tight">
+          {t('hero.title1')}
+          <span className="block text-primary drop-shadow-lg animate-pulse">
+            {t('hero.title2')}
+          </span>
         </h1>
-        <p className="text-base text-muted-foreground mb-8 max-w-2xl mx-auto font-medium">
-          Professional advertising solutions that capture attention. From LED displays to outdoor banners, we bring your vision to life.
+        <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto font-medium">
+          {t('hero.description')}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
             size="lg" 
-            className="text-base font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6"
+            className="text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-7 shadow-xl hover:shadow-2xl transition-all hover:scale-105"
           >
-            View Our Work
-            <ArrowRight className="ml-2 h-5 w-5" />
+            {t('hero.viewWork')}
+            <ArrowRight className="ml-2 h-6 w-6" />
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="text-base font-bold border-2 border-foreground rounded-full px-8 py-6 hover:bg-foreground hover:text-background"
+            className="text-lg font-bold border-2 border-foreground rounded-full px-10 py-7 hover:bg-foreground hover:text-background transition-all hover:scale-105"
           >
-            Get in Touch
+            {t('hero.getInTouch')}
           </Button>
         </div>
       </div>

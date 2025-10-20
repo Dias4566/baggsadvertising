@@ -2,8 +2,10 @@ import portfolioLed from "@/assets/portfolio-led.jpg";
 import portfolioBanner from "@/assets/portfolio-banner.jpg";
 import portfolioPosm from "@/assets/portfolio-posm.jpg";
 import portfolioFacade from "@/assets/portfolio-facade.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Portfolio = () => {
+  const { t } = useLanguage();
   const projects = [
     {
       title: "Retail LED Display",
@@ -41,10 +43,10 @@ const Portfolio = () => {
     <section className="py-24 px-6 bg-[#B5ABA7]/30">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-black text-center mb-4">
-          Our Portfolio
+          {t('portfolio.title')}
         </h2>
         <p className="text-base text-center text-muted-foreground mb-16 font-medium">
-          Projects that made an impact
+          {t('portfolio.description')}
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

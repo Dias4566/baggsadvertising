@@ -1,4 +1,7 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const TrustedBy = () => {
+  const { t } = useLanguage();
   const clients = [
     "Nike", "Adidas", "Coca-Cola", "McDonald's", "Samsung",
     "Apple", "Amazon", "Google", "Microsoft", "Tesla",
@@ -9,7 +12,7 @@ const TrustedBy = () => {
     <section className="py-16 bg-secondary overflow-hidden">
       <div className="mb-8">
         <h3 className="text-3xl md:text-4xl font-bold text-center text-secondary-foreground">
-          Trusted By Leading Brands
+          {t('trusted.title')}
         </h3>
       </div>
       <div className="relative">

@@ -113,4 +113,12 @@ All colors MUST be HSL.
       transform: translateX(-50%);
     }
   }
+  
+  .delay-500 {
+    animation-delay: 500ms;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1000ms;
+  }
 }
