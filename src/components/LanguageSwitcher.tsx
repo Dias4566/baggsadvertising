@@ -12,7 +12,7 @@ const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
 
   const languages = [
-    { code: 'en' as const, name: 'English', flag: '🇬🇧' },
+    { code: 'en' as const, name: 'English', flag: 'EN' },
     { code: 'ru' as const, name: 'Русский', flag: '🇷🇺' },
     { code: 'kk' as const, name: 'Қазақша', flag: '🇰🇿' },
   ];

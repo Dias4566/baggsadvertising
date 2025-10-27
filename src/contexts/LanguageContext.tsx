@@ -45,7 +45,7 @@ const translations = {
     'contact.send': 'Send Message',
     
     // Footer
-    'footer.tagline': 'Making brands impossible to miss since 2010',
+    'footer.tagline': 'Making brands impossible to miss since 2008',
     'footer.rights': '© 2024 BrightSign Advertising. All rights reserved.',
   },
   ru: {
@@ -84,7 +84,7 @@ const translations = {
     'contact.send': 'Отправить',
     
     // Footer
-    'footer.tagline': 'Делаем бренды невозможными не заметить с 2010 года',
+    'footer.tagline': 'Делаем бренды невозможными не заметить с 2008 года',
     'footer.rights': '© 2024 BrightSign Advertising. Все права защищены.',
   },
   kk: {
@@ -123,7 +123,7 @@ const translations = {
     'contact.send': 'Жіберу',
     
     // Footer
-    'footer.tagline': '2010 жылдан бері брендтерді байқамау мүмкін емес етеміз',
+    'footer.tagline': '2008 жылдан бері брендтерді байқамау мүмкін емес етеміз',
     'footer.rights': '© 2024 BrightSign Advertising. Барлық құқықтар қорғалған.',
   },
 };
