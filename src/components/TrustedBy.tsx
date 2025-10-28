@@ -3,9 +3,10 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const TrustedBy = () => {
   const { t } = useLanguage();
   const clients = [
-    "Nike", "Adidas", "Coca-Cola", "McDonald's", "Samsung",
-    "Apple", "Amazon", "Google", "Microsoft", "Tesla",
-    "Nike", "Adidas", "Coca-Cola", "McDonald's", "Samsung"
+    "P&G", "Coca-Cola", "Danone", "Gillette", "Head & Shoulders",
+    "Pampers", "Ariel", "Pantene", "Duracell", "The Ritz-Carlton",
+    "Londa", "Karcher", "Blend-a-med", "Always", "Tide",
+    "P&G", "Coca-Cola", "Danone", "Gillette", "Head & Shoulders"
   ];
 
   return (

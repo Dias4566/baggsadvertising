@@ -1,41 +1,43 @@
-import portfolioLed from "@/assets/portfolio-led.jpg";
-import portfolioBanner from "@/assets/portfolio-banner.jpg";
-import portfolioPosm from "@/assets/portfolio-posm.jpg";
-import portfolioFacade from "@/assets/portfolio-facade.jpg";
+import portfolioOutdoor from "@/assets/portfolio-outdoor-billboard.jpg";
+import portfolioDuracell from "@/assets/portfolio-duracell.jpg";
+import portfolioRetailStand from "@/assets/portfolio-retail-stand.jpg";
+import portfolioHeadShoulders from "@/assets/portfolio-headshoulders.jpg";
+import portfolioGillette from "@/assets/portfolio-gillette.jpg";
+import portfolioGillette2 from "@/assets/portfolio-gillette-2.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Portfolio = () => {
   const { t } = useLanguage();
   const projects = [
     {
-      title: "Retail LED Display",
-      category: "LED Lights",
-      image: portfolioLed
-    },
-    {
-      title: "Shopping Mall Banner",
-      category: "Banners",
-      image: portfolioBanner
-    },
-    {
-      title: "Product Display",
-      category: "POSM",
-      image: portfolioPosm
-    },
-    {
-      title: "Building Facade",
-      category: "Facade Advertising",
-      image: portfolioFacade
-    },
-    {
-      title: "Outdoor Billboard",
+      title: "Ritz-Carlton Outdoor Billboard",
       category: "Outdoor Advertising",
-      image: portfolioBanner
+      image: portfolioOutdoor
     },
     {
-      title: "Storefront Signage",
-      category: "LED Lights",
-      image: portfolioLed
+      title: "Duracell Retail Display",
+      category: "POSM",
+      image: portfolioDuracell
+    },
+    {
+      title: "Retail Product Stand",
+      category: "POSM",
+      image: portfolioRetailStand
+    },
+    {
+      title: "Head & Shoulders Display",
+      category: "POSM",
+      image: portfolioHeadShoulders
+    },
+    {
+      title: "Gillette LED Display",
+      category: "LED & POSM",
+      image: portfolioGillette
+    },
+    {
+      title: "Gillette Retail Stand",
+      category: "POSM",
+      image: portfolioGillette2
     }
   ];
 

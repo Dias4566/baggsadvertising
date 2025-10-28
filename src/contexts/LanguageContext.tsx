@@ -19,15 +19,15 @@ const translations = {
     
     // Services
     'services.title': 'What We Create',
-    'services.description': 'Professional solutions tailored to make your brand stand out',
-    'services.led.title': 'LED Displays',
-    'services.led.description': 'Eye-catching digital displays that shine bright',
-    'services.outdoor.title': 'Outdoor Banners',
-    'services.outdoor.description': 'Weather-resistant and impossible to ignore',
-    'services.interior.title': 'Interior Signs',
-    'services.interior.description': 'Premium signage for any indoor space',
-    'services.facade.title': 'Facade Solutions',
-    'services.facade.description': 'Transform buildings into brand landmarks',
+    'services.description': 'Full-cycle advertising production from design to installation',
+    'services.led.title': 'POSM Materials',
+    'services.led.description': 'Point-of-sale advertising materials custom-made for your brand',
+    'services.outdoor.title': 'Facade Design',
+    'services.outdoor.description': 'Stunning facade solutions with LED technology',
+    'services.interior.title': 'Promo Equipment',
+    'services.interior.description': 'Exhibition and promotional display equipment',
+    'services.facade.title': 'Retail Spaces',
+    'services.facade.description': 'Complete retail space design and decoration',
     
     // Portfolio
     'portfolio.title': 'Our Portfolio',
@@ -58,15 +58,15 @@ const translations = {
     
     // Services
     'services.title': 'Что Мы Создаём',
-    'services.description': 'Профессиональные решения для выделения вашего бренда',
-    'services.led.title': 'LED Дисплеи',
-    'services.led.description': 'Яркие цифровые экраны, которые притягивают взгляды',
-    'services.outdoor.title': 'Наружные Баннеры',
-    'services.outdoor.description': 'Устойчивые к погоде и невозможные игнорировать',
-    'services.interior.title': 'Интерьерные Вывески',
-    'services.interior.description': 'Премиальные вывески для любого помещения',
-    'services.facade.title': 'Фасадные Решения',
-    'services.facade.description': 'Превращаем здания в визитные карточки бренда',
+    'services.description': 'Полный цикл рекламного производства от дизайна до монтажа',
+    'services.led.title': 'POS-Материалы',
+    'services.led.description': 'Рекламные материалы для точек продаж под ваш бренд',
+    'services.outdoor.title': 'Оформление Фасадов',
+    'services.outdoor.description': 'Современные фасадные решения с LED-технологией',
+    'services.interior.title': 'Промо Оборудование',
+    'services.interior.description': 'Выставочное и промо оборудование',
+    'services.facade.title': 'Торговые Площади',
+    'services.facade.description': 'Комплексное оформление торговых площадей',
     
     // Portfolio
     'portfolio.title': 'Наше Портфолио',
@@ -97,15 +97,15 @@ const translations = {
     
     // Services
     'services.title': 'Біз Не Жасаймыз',
-    'services.description': 'Брендіңізді ерекшелендіруге арналған кәсіби шешімдер',
-    'services.led.title': 'LED Дисплейлер',
-    'services.led.description': 'Назар аударатын жарқын цифрлық дисплейлер',
-    'services.outdoor.title': 'Сыртқы Баннерлер',
-    'services.outdoor.description': 'Ауа райына төзімді және елемеуге болмайтын',
-    'services.interior.title': 'Ішкі Белгілер',
-    'services.interior.description': 'Кез келген ішкі кеңістік үшін сапалы белгілер',
-    'services.facade.title': 'Фасад Шешімдері',
-    'services.facade.description': 'Ғимараттарды бренд белгілеріне айналдырамыз',
+    'services.description': 'Дизайннан монтажға дейін толық цикл жарнама өндірісі',
+    'services.led.title': 'POS-Материалдар',
+    'services.led.description': 'Брендіңізге арналған сату нүктелеріндегі жарнама материалдары',
+    'services.outdoor.title': 'Фасадты Безендіру',
+    'services.outdoor.description': 'LED технологиясымен заманауи фасад шешімдері',
+    'services.interior.title': 'Промо Жабдықтар',
+    'services.interior.description': 'Көрме және промо жабдықтар',
+    'services.facade.title': 'Сауда Алаңдары',
+    'services.facade.description': 'Сауда алаңдарын кешенді безендіру',
     
     // Portfolio
     'portfolio.title': 'Біздің Портфолио',
