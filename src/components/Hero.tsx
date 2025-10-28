@@ -36,6 +36,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="text-lg font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-10 py-7 shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+            onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
           >
             {t('hero.viewWork')}
             <ArrowRight className="ml-2 h-6 w-6" />
@@ -44,6 +45,7 @@ const Hero = () => {
             size="lg" 
             variant="outline" 
             className="text-lg font-bold border-2 border-foreground rounded-full px-10 py-7 hover:bg-foreground hover:text-background transition-all hover:scale-105"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             {t('hero.getInTouch')}
           </Button>
