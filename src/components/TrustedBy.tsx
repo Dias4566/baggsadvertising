@@ -25,9 +25,10 @@ const TrustedBy = () => {
         }}
         plugins={[
           Autoplay({
-            delay: 2000,
+            delay: 0,
             stopOnInteraction: false,
             stopOnMouseEnter: false,
+            playOnInit: true,
           }),
         ]}
         className="w-full"
