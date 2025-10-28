@@ -46,7 +46,7 @@ const translations = {
     
     // Footer
     'footer.tagline': 'Making brands impossible to miss since 2008',
-    'footer.rights': '© 2024 BrightSign Advertising. All rights reserved.',
+    'footer.rights': '© 2024 BAGG\'s Advertising. All rights reserved.',
   },
   ru: {
     // Hero
@@ -85,7 +85,7 @@ const translations = {
     
     // Footer
     'footer.tagline': 'Делаем бренды невозможными не заметить с 2008 года',
-    'footer.rights': '© 2024 BrightSign Advertising. Все права защищены.',
+    'footer.rights': '© 2024 BAGG\'s Advertising. Все права защищены.',
   },
   kk: {
     // Hero
@@ -124,7 +124,7 @@ const translations = {
     
     // Footer
     'footer.tagline': '2008 жылдан бері брендтерді байқамау мүмкін емес етеміз',
-    'footer.rights': '© 2024 BrightSign Advertising. Барлық құқықтар қорғалған.',
+    'footer.rights': '© 2024 BAGG\'s Advertising. Барлық құқықтар қорғалған.',
   },
 };
 
