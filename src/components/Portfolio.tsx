@@ -4,15 +4,75 @@ import portfolioRetailStand from "@/assets/portfolio-retail-stand.jpg";
 import portfolioHeadShoulders from "@/assets/portfolio-headshoulders.jpg";
 import portfolioGillette from "@/assets/portfolio-gillette.jpg";
 import portfolioGillette2 from "@/assets/portfolio-gillette-2.jpg";
+import portfolioPantene from "@/assets/portfolio-pantene.jpg";
+import portfolioPampersStand from "@/assets/portfolio-pampers-stand.jpg";
+import portfolioGiftBox from "@/assets/portfolio-gift-box.jpg";
+import portfolioOldSpice from "@/assets/portfolio-oldspice.jpg";
+import portfolioGilletteStand from "@/assets/portfolio-gillette-stand.jpg";
+import portfolioPampersDisplay from "@/assets/portfolio-pampers-display.jpg";
+import portfolioGilletteSoccer from "@/assets/portfolio-gillette-soccer.jpg";
+import portfolioGilletteSoccer2 from "@/assets/portfolio-gillette-soccer-2.jpg";
+import portfolioCocaColaChristmas from "@/assets/portfolio-cocacola-christmas.jpg";
+import portfolioPampersRetail from "@/assets/portfolio-pampers-retail.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Portfolio = () => {
   const { t } = useLanguage();
   const projects = [
     {
+      title: "Pantene Mall Display",
+      category: "Outdoor Advertising",
+      image: portfolioPantene
+    },
+    {
       title: "Ritz-Carlton Outdoor Billboard",
       category: "Outdoor Advertising",
       image: portfolioOutdoor
+    },
+    {
+      title: "Coca-Cola Christmas Display",
+      category: "POSM & Seasonal",
+      image: portfolioCocaColaChristmas
+    },
+    {
+      title: "Gillette Soccer Display",
+      category: "POSM",
+      image: portfolioGilletteSoccer
+    },
+    {
+      title: "Gillette Soccer Stand",
+      category: "POSM",
+      image: portfolioGilletteSoccer2
+    },
+    {
+      title: "Pampers Retail Display",
+      category: "POSM",
+      image: portfolioPampersStand
+    },
+    {
+      title: "Pampers Display Stand",
+      category: "POSM",
+      image: portfolioPampersDisplay
+    },
+    {
+      title: "Pampers Retail Stand",
+      category: "POSM",
+      image: portfolioPampersRetail
+    },
+    {
+      title: "Gift Box Display",
+      category: "Seasonal POSM",
+      image: portfolioGiftBox
+    },
+    {
+      title: "Old Spice Retail Display",
+      category: "POSM",
+      image: portfolioOldSpice
+    },
+    {
+      title: "Gillette Retail Stand",
+      category: "POSM",
+      image: portfolioGilletteStand
     },
     {
       title: "Duracell Retail Display",
