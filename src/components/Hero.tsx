@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
-        <h1 className="text-7xl md:text-8xl lg:text-9xl font-black mb-6 tracking-tight leading-[0.95] break-words">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-[0.95] break-words">
           {t('hero.title1')}
           <span className="block text-primary drop-shadow-lg animate-pulse">
             {t('hero.title2')}
