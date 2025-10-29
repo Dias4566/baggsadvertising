@@ -22,7 +22,7 @@ const TrustedBy = () => {
           align: "start",
           loop: true,
           dragFree: true,
-          duration: 100,
+          duration: 1000,
         }}
         plugins={[
           Autoplay({
