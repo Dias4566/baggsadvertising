@@ -24,58 +24,58 @@ const Portfolio = () => {
   
   const projects = [
     {
-      title: "Pantene Mall Display",
-      category: "Outdoor Advertising",
+      title: t('portfolio.pantene.title'),
+      category: t('portfolio.pantene.category'),
       images: [portfolioPantene]
     },
     {
-      title: "Ritz-Carlton Outdoor Billboard",
-      category: "Outdoor Advertising",
+      title: t('portfolio.ritz.title'),
+      category: t('portfolio.ritz.category'),
       images: [portfolioOutdoor]
     },
     {
-      title: "Coca-Cola Christmas Display",
-      category: "POSM & Seasonal",
+      title: t('portfolio.cocacola.title'),
+      category: t('portfolio.cocacola.category'),
       images: [portfolioCocaColaChristmas]
     },
     {
-      title: "Gillette Soccer Campaign",
-      category: "POSM",
+      title: t('portfolio.gilletteSoccer.title'),
+      category: t('portfolio.gilletteSoccer.category'),
       images: [portfolioGilletteSoccer, portfolioGilletteSoccer2]
     },
     {
-      title: "Pampers Retail Displays",
-      category: "POSM",
+      title: t('portfolio.pampers.title'),
+      category: t('portfolio.pampers.category'),
       images: [portfolioPampersStand, portfolioPampersRetail]
     },
     {
-      title: "Gift Box Display",
-      category: "Seasonal POSM",
+      title: t('portfolio.giftbox.title'),
+      category: t('portfolio.giftbox.category'),
       images: [portfolioGiftBox]
     },
     {
-      title: "Old Spice Retail Display",
-      category: "POSM",
+      title: t('portfolio.oldspice.title'),
+      category: t('portfolio.oldspice.category'),
       images: [portfolioOldSpice]
     },
     {
-      title: "Gillette Retail Displays",
-      category: "POSM",
+      title: t('portfolio.gillette.title'),
+      category: t('portfolio.gillette.category'),
       images: [portfolioGilletteStand, portfolioGillette, portfolioGillette2]
     },
     {
-      title: "Duracell Retail Display",
-      category: "POSM",
+      title: t('portfolio.duracell.title'),
+      category: t('portfolio.duracell.category'),
       images: [portfolioDuracell]
     },
     {
-      title: "Retail Product Stand",
-      category: "POSM",
+      title: t('portfolio.retailstand.title'),
+      category: t('portfolio.retailstand.category'),
       images: [portfolioRetailStand]
     },
     {
-      title: "Head & Shoulders Display",
-      category: "POSM",
+      title: t('portfolio.headshoulders.title'),
+      category: t('portfolio.headshoulders.category'),
       images: [portfolioHeadShoulders]
     }
   ];
