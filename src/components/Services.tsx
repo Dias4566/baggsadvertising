@@ -1,4 +1,4 @@
-import { Lightbulb, Image, Shapes, Building, Store } from "lucide-react";
+import { Lightbulb, Image, Shapes, Building, Scissors } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -26,6 +26,11 @@ const Services = () => {
       icon: Building,
       title: t('services.facade.title'),
       description: t('services.facade.description')
+    },
+    {
+      icon: Scissors,
+      title: t('services.laser.title'),
+      description: t('services.laser.description')
     }
   ];
   

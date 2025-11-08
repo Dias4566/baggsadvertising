@@ -28,6 +28,8 @@ const translations = {
     'services.interior.description': 'Exhibition and promotional display equipment',
     'services.facade.title': 'Retail Spaces',
     'services.facade.description': 'Complete retail space design and decoration',
+    'services.laser.title': 'Laser Cutting',
+    'services.laser.description': 'Precision laser cutting for intricate designs and custom shapes',
     
     // Portfolio
     'portfolio.title': 'Our Portfolio',
@@ -89,6 +91,8 @@ const translations = {
     'services.interior.description': 'Выставочное и промо оборудование',
     'services.facade.title': 'Торговые Площади',
     'services.facade.description': 'Комплексное оформление торговых площадей',
+    'services.laser.title': 'Лазерная Резка',
+    'services.laser.description': 'Высокоточная лазерная резка для сложных дизайнов и нестандартных форм',
     
     // Portfolio
     'portfolio.title': 'Наше Портфолио',
@@ -150,6 +154,8 @@ const translations = {
     'services.interior.description': 'Көрме және промо жабдықтар',
     'services.facade.title': 'Сауда Алаңдары',
     'services.facade.description': 'Сауда алаңдарын кешенді безендіру',
+    'services.laser.title': 'Лазерлік Кесу',
+    'services.laser.description': 'Күрделі дизайндар мен теңдессіз пішіндер үшін жоғары дәлдіктегі лазерлік кесу',
     
     // Portfolio
     'portfolio.title': 'Біздің Портфолио',
