@@ -1,4 +1,5 @@
 import portfolioOutdoor from "@/assets/portfolio-outdoor-billboard.jpg";
+import portfolioRitzCarltonDay from "@/assets/portfolio-ritzcarlton-day.jpg";
 import portfolioDuracell from "@/assets/portfolio-duracell.jpg";
 import portfolioRetailStand from "@/assets/portfolio-retail-stand.jpg";
 import portfolioHeadShoulders from "@/assets/portfolio-headshoulders.jpg";
@@ -14,6 +15,9 @@ import portfolioGilletteSoccer from "@/assets/portfolio-gillette-soccer.jpg";
 import portfolioGilletteSoccer2 from "@/assets/portfolio-gillette-soccer-2.jpg";
 import portfolioCocaColaChristmas from "@/assets/portfolio-cocacola-christmas.jpg";
 import portfolioPampersRetail from "@/assets/portfolio-pampers-retail.jpg";
+import portfolioHerbalArchRoses from "@/assets/portfolio-herbal-arch-roses.jpg";
+import portfolioHerbalArchDaisies from "@/assets/portfolio-herbal-arch-daisies.jpg";
+import portfolioHerbalStand from "@/assets/portfolio-herbal-stand.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { useState } from "react";
@@ -31,7 +35,12 @@ const Portfolio = () => {
     {
       title: t('portfolio.ritz.title'),
       category: t('portfolio.ritz.category'),
-      images: [portfolioOutdoor]
+      images: [portfolioRitzCarltonDay, portfolioOutdoor]
+    },
+    {
+      title: t('portfolio.herbal.title'),
+      category: t('portfolio.herbal.category'),
+      images: [portfolioHerbalArchRoses, portfolioHerbalArchDaisies, portfolioHerbalStand]
     },
     {
       title: t('portfolio.cocacola.title'),

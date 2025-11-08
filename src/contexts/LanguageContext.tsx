@@ -56,6 +56,8 @@ const translations = {
     'portfolio.retailstand.category': 'POSM',
     'portfolio.headshoulders.title': 'Head & Shoulders Display',
     'portfolio.headshoulders.category': 'POSM',
+    'portfolio.herbal.title': 'Herbal Essences Retail Displays',
+    'portfolio.herbal.category': 'POSM',
     
     // Trusted By
     'trusted.title': 'Trusted By Leading Brands',
@@ -119,6 +121,8 @@ const translations = {
     'portfolio.retailstand.category': 'POS-материалы',
     'portfolio.headshoulders.title': 'Витрина Head & Shoulders',
     'portfolio.headshoulders.category': 'POS-материалы',
+    'portfolio.herbal.title': 'Торговые витрины Herbal Essences',
+    'portfolio.herbal.category': 'POS-материалы',
     
     // Trusted By
     'trusted.title': 'Нам Доверяют Ведущие Бренды',
@@ -182,6 +186,8 @@ const translations = {
     'portfolio.retailstand.category': 'POS-материалдар',
     'portfolio.headshoulders.title': 'Head & Shoulders витринасы',
     'portfolio.headshoulders.category': 'POS-материалдар',
+    'portfolio.herbal.title': 'Herbal Essences сауда витриналары',
+    'portfolio.herbal.category': 'POS-материалдар',
     
     // Trusted By
     'trusted.title': 'Жетекші Брендтер Бізге Сенеді',
