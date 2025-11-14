@@ -58,6 +58,14 @@ const translations = {
     'portfolio.headshoulders.category': 'POSM',
     'portfolio.herbal.title': 'Herbal Essences Retail Displays',
     'portfolio.herbal.category': 'POSM',
+    'portfolio.always.title': 'Always Retail Displays',
+    'portfolio.always.category': 'POSM',
+    'portfolio.naturella.title': 'Naturella Retail Display',
+    'portfolio.naturella.category': 'POSM',
+    'portfolio.fairy.title': 'Fairy Retail Displays',
+    'portfolio.fairy.category': 'POSM',
+    'portfolio.ariel.title': 'Ariel Retail Arch',
+    'portfolio.ariel.category': 'POSM',
     
     // Trusted By
     'trusted.title': 'Trusted By Leading Brands',
@@ -123,6 +131,14 @@ const translations = {
     'portfolio.headshoulders.category': 'POS-материалы',
     'portfolio.herbal.title': 'Торговые витрины Herbal Essences',
     'portfolio.herbal.category': 'POS-материалы',
+    'portfolio.always.title': 'Торговые витрины Always',
+    'portfolio.always.category': 'POS-материалы',
+    'portfolio.naturella.title': 'Торговая витрина Naturella',
+    'portfolio.naturella.category': 'POS-материалы',
+    'portfolio.fairy.title': 'Торговые витрины Fairy',
+    'portfolio.fairy.category': 'POS-материалы',
+    'portfolio.ariel.title': 'Торговая арка Ariel',
+    'portfolio.ariel.category': 'POS-материалы',
     
     // Trusted By
     'trusted.title': 'Нам Доверяют Ведущие Бренды',
@@ -188,6 +204,14 @@ const translations = {
     'portfolio.headshoulders.category': 'POS-материалдар',
     'portfolio.herbal.title': 'Herbal Essences сауда витриналары',
     'portfolio.herbal.category': 'POS-материалдар',
+    'portfolio.always.title': 'Always сауда витриналары',
+    'portfolio.always.category': 'POS-материалдар',
+    'portfolio.naturella.title': 'Naturella сауда витринасы',
+    'portfolio.naturella.category': 'POS-материалдар',
+    'portfolio.fairy.title': 'Fairy сауда витриналары',
+    'portfolio.fairy.category': 'POS-материалдар',
+    'portfolio.ariel.title': 'Ariel сауда арка',
+    'portfolio.ariel.category': 'POS-материалдар',
     
     // Trusted By
     'trusted.title': 'Жетекші Брендтер Бізге Сенеді',
