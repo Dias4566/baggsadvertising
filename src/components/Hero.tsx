@@ -27,7 +27,7 @@ const Hero = () => {
         <img 
           src={baggsLogo} 
           alt="BAGG'S Advertising" 
-          className="h-20 md:h-24 lg:h-28 mx-auto mb-8"
+          className="h-16 md:h-20 mx-auto mb-8 opacity-90"
         />
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-[0.95] break-words">
           {t('hero.title1')}
