@@ -17,6 +17,7 @@ import portfolioPampersDisplay from "@/assets/portfolio-pampers-display.jpg";
 import portfolioPampersDisplay2 from "@/assets/portfolio-pampers-display-2.jpg";
 import portfolioGilletteSoccer from "@/assets/portfolio-gillette-soccer.jpg";
 import portfolioGilletteSoccer2 from "@/assets/portfolio-gillette-soccer-2.jpg";
+import portfolioGilletteVenus from "@/assets/portfolio-gillette-venus.jpg";
 import portfolioCocaColaChristmas from "@/assets/portfolio-cocacola-christmas.jpg";
 import portfolioPampersRetail from "@/assets/portfolio-pampers-retail.jpg";
 import portfolioHerbalArchRoses from "@/assets/portfolio-herbal-arch-roses.jpg";
@@ -100,7 +101,7 @@ const Portfolio = () => {
     {
       title: t('portfolio.gillette.title'),
       category: t('portfolio.gillette.category'),
-      images: [portfolioGilletteStand, portfolioGillette, portfolioGillette2]
+      images: [portfolioGilletteStand, portfolioGillette, portfolioGillette2, portfolioGilletteVenus]
     },
     {
       title: t('portfolio.duracell.title'),

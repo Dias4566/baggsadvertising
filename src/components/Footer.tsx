@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import baggsLogo from "@/assets/baggs-logo.png";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -6,7 +7,11 @@ const Footer = () => {
   return (
     <footer className="bg-secondary text-secondary-foreground py-12 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-5xl md:text-6xl font-black mb-4">BAGG's advertising</h2>
+        <img 
+          src={baggsLogo} 
+          alt="BAGG'S Advertising" 
+          className="h-16 md:h-20 mx-auto mb-4"
+        />
         <p className="text-base text-secondary-foreground/70 font-medium mb-6">
           {t('footer.tagline')}
         </p>

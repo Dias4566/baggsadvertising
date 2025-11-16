@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Zap, TrendingUp } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import baggsLogo from "@/assets/baggs-logo.png";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -23,6 +24,11 @@ const Hero = () => {
       </div>
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
+        <img 
+          src={baggsLogo} 
+          alt="BAGG'S Advertising" 
+          className="h-20 md:h-24 lg:h-28 mx-auto mb-8"
+        />
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-[0.95] break-words">
           {t('hero.title1')}
           <span className="block text-primary drop-shadow-lg animate-pulse">
