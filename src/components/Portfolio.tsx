@@ -140,7 +140,7 @@ const Portfolio = () => {
                   <img 
                     src={project.images[0]} 
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-contain bg-muted transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -165,7 +165,7 @@ const Portfolio = () => {
                         key={imgIndex}
                         src={image} 
                         alt={`${project.title} - Image ${imgIndex + 1}`}
-                        className="w-full rounded-lg object-cover"
+                        className="w-full rounded-lg object-contain bg-muted"
                       />
                     ))}
                   </div>
