@@ -140,7 +140,7 @@ const Portfolio = () => {
                   <img 
                     src={project.images[0]} 
                     alt={project.title}
-                    className="w-full h-full object-contain bg-muted transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover scale-90 transition-transform duration-500 group-hover:scale-95"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-0 left-0 right-0 p-6">
