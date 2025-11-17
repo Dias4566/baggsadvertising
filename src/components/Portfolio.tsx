@@ -29,6 +29,11 @@ import portfolioNaturellaDisplay from "@/assets/portfolio-naturella-display.jpg"
 import portfolioFairyDisplay from "@/assets/portfolio-fairy-display.jpg";
 import portfolioFairyStand from "@/assets/portfolio-fairy-stand.jpg";
 import portfolioArielArch from "@/assets/portfolio-ariel-arch.jpg";
+import portfolioHeadShouldersRetail from "@/assets/portfolio-headshoulders-retail.jpg";
+import portfolioGilletteRetail from "@/assets/portfolio-gillette-retail.jpg";
+import portfolioPanteneRetail from "@/assets/portfolio-pantene-retail.jpg";
+import portfolioCombinedDisplay from "@/assets/portfolio-combined-display.jpg";
+import portfolioPhilipsOral from "@/assets/portfolio-philips-oral.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { useState } from "react";
@@ -41,7 +46,7 @@ const Portfolio = () => {
     {
       title: t('portfolio.pantene.title'),
       category: t('portfolio.pantene.category'),
-      images: [portfolioPanteneDisplay, portfolioPantene]
+      images: [portfolioPanteneDisplay, portfolioPantene, portfolioPanteneRetail]
     },
     {
       title: t('portfolio.ritz.title'),
@@ -101,7 +106,7 @@ const Portfolio = () => {
     {
       title: t('portfolio.gillette.title'),
       category: t('portfolio.gillette.category'),
-      images: [portfolioGilletteStand, portfolioGillette, portfolioGillette2, portfolioGilletteVenus]
+      images: [portfolioGilletteStand, portfolioGillette, portfolioGillette2, portfolioGilletteVenus, portfolioGilletteRetail]
     },
     {
       title: t('portfolio.duracell.title'),
@@ -116,7 +121,17 @@ const Portfolio = () => {
     {
       title: t('portfolio.headshoulders.title'),
       category: t('portfolio.headshoulders.category'),
-      images: [portfolioHeadShouldersDisplay, portfolioHeadShoulders]
+      images: [portfolioHeadShouldersDisplay, portfolioHeadShoulders, portfolioHeadShouldersRetail]
+    },
+    {
+      title: "Philips & Oral-B",
+      category: "Retail Display",
+      images: [portfolioPhilipsOral]
+    },
+    {
+      title: "Multi-Brand Display",
+      category: "Retail POSM",
+      images: [portfolioCombinedDisplay]
     }
   ];
 
