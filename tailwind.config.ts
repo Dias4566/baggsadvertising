@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Darker Grotesque', 'sans-serif'],
+        sans: ['Noto Sans', 'Darker Grotesque', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
