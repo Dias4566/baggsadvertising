@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
-        <h2 className="text-6xl md:text-7xl lg:text-8xl font-black mb-12 tracking-tight text-foreground">
+        <h2 className="text-8xl md:text-9xl lg:text-[12rem] font-black mb-12 tracking-tight text-foreground leading-none">
           BAGG'S Advertising
         </h2>
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-[0.95] break-words">
