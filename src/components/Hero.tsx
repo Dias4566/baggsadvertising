@@ -1,13 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Zap, TrendingUp } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 const Hero = () => {
   const { t } = useLanguage();
   
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#B5ABA7]/30 via-background to-primary/5 px-6 py-20 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#B5ABA7]/30 via-background to-primary/5 px-6 pt-32 pb-20 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -17,16 +16,8 @@ const Hero = () => {
         <TrendingUp className="absolute top-1/3 left-1/3 w-7 h-7 text-primary/20 animate-bounce delay-500" />
       </div>
 
-      {/* Language switcher */}
-      <div className="absolute top-8 right-8 z-10">
-        <LanguageSwitcher />
-      </div>
-
       <div className="max-w-6xl mx-auto text-center relative z-10">
-        <h2 className="text-5xl md:text-8xl lg:text-9xl xl:text-[12rem] font-black mb-8 md:mb-12 tracking-tight text-foreground leading-none">
-          BAGG'S Advertising
-        </h2>
-        <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-6 tracking-tight leading-[0.95] break-words">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-black mb-6 tracking-tight leading-[0.95] break-words">
           {t('hero.title1')}
           <span className="block text-primary drop-shadow-lg animate-pulse">
             {t('hero.title2')}

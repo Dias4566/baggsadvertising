@@ -77,6 +77,9 @@ const translations = {
     'contact.email': 'Email Address',
     'contact.message': 'Tell us about your project',
     'contact.send': 'Send Message',
+    'contact.emailUs': 'Email Us',
+    'contact.callUs': 'Call Us',
+    'contact.visitUs': 'Visit Us',
     
     // Footer
     'footer.tagline': 'Making brands impossible to miss since 2008',
@@ -150,6 +153,9 @@ const translations = {
     'contact.email': 'Email Адрес',
     'contact.message': 'Расскажите о вашем проекте',
     'contact.send': 'Отправить',
+    'contact.emailUs': 'Напишите Нам',
+    'contact.callUs': 'Позвоните Нам',
+    'contact.visitUs': 'Посетите Нас',
     
     // Footer
     'footer.tagline': 'Делаем бренды невозможными не заметить с 2008 года',
@@ -223,6 +229,9 @@ const translations = {
     'contact.email': 'Email Мекенжайы',
     'contact.message': 'Жобаңыз туралы айтыңыз',
     'contact.send': 'Жіберу',
+    'contact.emailUs': 'Бізге Жазыңыз',
+    'contact.callUs': 'Бізге Қоңырау Шалыңыз',
+    'contact.visitUs': 'Бізге Келіңіз',
     
     // Footer
     'footer.tagline': '2008 жылдан бері брендтерді байқамау мүмкін емес етеміз',
