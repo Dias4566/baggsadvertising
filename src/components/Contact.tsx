@@ -78,7 +78,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary-foreground" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-1">Email Us</h3>
+                <h3 className="text-2xl font-bold mb-1">{t('contact.emailUs')}</h3>
                 <p className="text-base text-muted-foreground font-medium">dias@baggs.kz</p>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-primary-foreground" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-1">Call Us</h3>
+                <h3 className="text-2xl font-bold mb-1">{t('contact.callUs')}</h3>
                 <p className="text-base text-muted-foreground font-medium">+7 702 777 02 02</p>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-primary-foreground" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-1">Visit Us</h3>
+                <h3 className="text-2xl font-bold mb-1">{t('contact.visitUs')}</h3>
                 <p className="text-base text-muted-foreground font-medium">
                   Сейфуллина 288<br />
                   г. Алматы 050050<br />
