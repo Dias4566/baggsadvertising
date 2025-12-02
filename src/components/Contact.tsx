@@ -83,7 +83,12 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="flex items-start gap-4">
+            <a 
+              href="https://wa.me/77029500392"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-4 hover:opacity-80 transition-opacity"
+            >
               <div className="bg-primary rounded-2xl p-4">
                 <Phone className="w-6 h-6 text-primary-foreground" />
               </div>
@@ -91,9 +96,14 @@ const Contact = () => {
                 <h3 className="text-2xl font-bold mb-1">{t('contact.callUs')}</h3>
                 <p className="text-base text-muted-foreground font-medium">+7 702 950 03 92</p>
               </div>
-            </div>
+            </a>
             
-            <div className="flex items-start gap-4">
+            <a 
+              href="https://2gis.kz/almaty/search/Сейфуллина%20288"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-4 hover:opacity-80 transition-opacity"
+            >
               <div className="bg-primary rounded-2xl p-4">
                 <MapPin className="w-6 h-6 text-primary-foreground" />
               </div>
@@ -105,7 +115,7 @@ const Contact = () => {
                   403 офис 4 этаж
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
