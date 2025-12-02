@@ -66,14 +66,16 @@ const Header = () => {
           {/* Contact Info */}
           <div className="hidden xl:flex items-center gap-4">
             <a 
-              href="tel:+77029500392" 
+              href="https://wa.me/77029500392" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-xs font-medium text-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-3.5 h-3.5" />
               <span>+7 702 950 03 92</span>
             </a>
             <a 
-              href="https://maps.google.com/?q=Сейфуллина+288,+Алматы" 
+              href="https://2gis.kz/almaty/search/Сейфуллина%20288" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-xs font-medium text-foreground hover:text-primary transition-colors"
@@ -136,14 +138,16 @@ const Header = () => {
               {/* Mobile Contact Info */}
               <div className="flex flex-col gap-3 pt-4 mt-2 border-t border-border">
                 <a 
-                  href="tel:+77029500392" 
+                  href="https://wa.me/77029500392" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm font-medium text-foreground hover:text-primary transition-colors px-4"
                 >
                   <Phone className="w-4 h-4" />
                   <span>+7 702 950 03 92</span>
                 </a>
                 <a 
-                  href="https://maps.google.com/?q=Сейфуллина+288,+Алматы" 
+                  href="https://2gis.kz/almaty/search/Сейфуллина%20288" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm font-medium text-foreground hover:text-primary transition-colors px-4"
