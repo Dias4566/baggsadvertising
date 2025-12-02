@@ -83,7 +83,7 @@ const translations = {
     
     // Navigation
     'nav.about': 'About Us',
-    'nav.services': 'What We Do',
+    'nav.services': 'Services',
     'nav.portfolio': 'Portfolio',
     'nav.contact': 'Contact',
     
@@ -189,7 +189,7 @@ const translations = {
     
     // Navigation
     'nav.about': 'О Нас',
-    'nav.services': 'Что Мы Делаем',
+    'nav.services': 'Услуги',
     'nav.portfolio': 'Портфолио',
     'nav.contact': 'Контакты',
     
@@ -295,7 +295,7 @@ const translations = {
     
     // Navigation
     'nav.about': 'Біз Туралы',
-    'nav.services': 'Не Жасаймыз',
+    'nav.services': 'Қызметтер',
     'nav.portfolio': 'Портфолио',
     'nav.contact': 'Байланыс',
     
