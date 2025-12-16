@@ -75,7 +75,7 @@ const Header = () => {
               <span>+7 702 950 03 92</span>
             </a>
             <a 
-              href="https://2gis.kz/almaty/search/Сейфуллина%20288" 
+              href="https://2gis.kz/almaty/search/BAGG's%20Advertising" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-xs font-medium text-foreground hover:text-primary transition-colors"
@@ -147,7 +147,7 @@ const Header = () => {
                   <span>+7 702 950 03 92</span>
                 </a>
                 <a 
-                  href="https://2gis.kz/almaty/search/Сейфуллина%20288" 
+                  href="https://2gis.kz/almaty/search/BAGG's%20Advertising" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm font-medium text-foreground hover:text-primary transition-colors px-4"
