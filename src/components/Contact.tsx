@@ -99,7 +99,7 @@ const Contact = () => {
             </a>
             
             <a 
-              href="https://2gis.kz/almaty/search/Сейфуллина%20288"
+              href="https://2gis.kz/almaty/search/BAGG's%20Advertising"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-start gap-4 hover:opacity-80 transition-opacity"

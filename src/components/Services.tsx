@@ -33,6 +33,13 @@ const Services = () => {
       description: t('services.laser.description')
     }
   ];
+
+  const scrollToPortfolio = () => {
+    const element = document.getElementById('portfolio');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   
   return (
     <section id="services" className="py-24 px-6 bg-[#B5ABA7]/30">
@@ -48,7 +55,8 @@ const Services = () => {
           {servicesData.map((service, index) => (
             <Card 
               key={index} 
-              className="border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl rounded-3xl overflow-hidden group"
+              className="border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl rounded-3xl overflow-hidden group cursor-pointer"
+              onClick={scrollToPortfolio}
             >
               <CardContent className="p-8">
                 <service.icon className="w-12 h-12 mb-4 text-primary group-hover:scale-110 transition-transform" />
