@@ -26,7 +26,7 @@ const Header = () => {
             <img 
               src={baggsLogo} 
               alt="BAGG'S Advertising" 
-              className="h-20 md:h-24 cursor-pointer transition-transform hover:scale-105"
+              className="h-20 md:h-24 cursor-pointer transition-transform hover:scale-105 mix-blend-multiply"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             />
           </div>
