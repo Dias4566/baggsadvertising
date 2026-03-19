@@ -62,21 +62,12 @@ const NauryzBanner = () => {
             <X className="w-7 h-7" />
           </button>
 
-          <div className="text-4xl tracking-widest">🌷🌷🌷</div>
-
           <h2
             className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg"
             style={{ fontFamily: "'Times New Roman', Times, serif" }}
           >
             {t.title}
           </h2>
-
-          <p
-            className="text-xl md:text-2xl text-white/90 drop-shadow-md"
-            style={{ fontFamily: "'Times New Roman', Times, serif" }}
-          >
-            {t.message}
-          </p>
 
           <Button
             onClick={() => {
