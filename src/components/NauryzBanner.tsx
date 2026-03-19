@@ -23,14 +23,17 @@ const NauryzBanner = () => {
 
   const content = {
     en: {
+      topline: "Holiday Offer",
       title: "Your Nauryz Gift: -10% on Orders!",
       cta: "Claim -10%",
     },
     ru: {
+      topline: "Праздничное предложение",
       title: "Ваш подарок к наурызу: -10% на заказ!",
       cta: "Забрать -10%",
     },
     kk: {
+      topline: "Мерекелік ұсыныс",
       title: "Наурызға сыйлық: тапсырысқа -10%!",
       cta: "Жеңілдікті алу",
     },
@@ -52,8 +55,11 @@ const NauryzBanner = () => {
           style={{ backgroundImage: `url(${nauryzBg})` }}
         />
 
+        {/* Dark gradient overlay for readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/35 to-black/45" />
+
         {/* Content */}
-        <div className="relative z-10 p-10 md:p-14 text-center space-y-6">
+        <div className="relative z-10 flex flex-col items-center justify-center p-10 md:p-16 text-center space-y-5">
           {/* Close button */}
           <button
             onClick={handleClose}
@@ -62,9 +68,20 @@ const NauryzBanner = () => {
             <X className="w-7 h-7" />
           </button>
 
+          {/* Topline */}
+          <span
+            className="text-sm md:text-base uppercase text-white/90 font-semibold"
+            style={{ letterSpacing: "0.3em" }}
+          >
+            {t.topline}
+          </span>
+
           <h2
-            className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg"
-            style={{ fontFamily: "'Times New Roman', Times, serif" }}
+            className="text-4xl md:text-5xl font-bold text-white"
+            style={{
+              fontFamily: "'Times New Roman', Times, serif",
+              textShadow: "0 2px 12px rgba(0,0,0,0.5)",
+            }}
           >
             {t.title}
           </h2>
@@ -74,19 +91,18 @@ const NauryzBanner = () => {
               handleClose();
               document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
             }}
-            className="mt-4 px-12 text-xl font-bold rounded-full border-2 hover:opacity-90"
+            className="mt-4 px-14 py-7 text-xl md:text-2xl font-bold rounded-full border-2 hover:scale-105 transition-transform"
             style={{
               background: "linear-gradient(135deg, #c8a43a, #f5d76e)",
               color: "#1a4a2a",
               borderColor: "#f5d76e",
               fontFamily: "'Times New Roman', Times, serif",
+              boxShadow: "0 8px 30px rgba(200, 164, 58, 0.45)",
             }}
             size="lg"
           >
             {t.cta}
           </Button>
-
-          
         </div>
       </div>
     </div>
