@@ -51,8 +51,6 @@ const NauryzBanner = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${nauryzBg})` }}
         />
-        {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-black/50" />
 
         {/* Content */}
         <div className="relative z-10 p-10 md:p-14 text-center space-y-6">
