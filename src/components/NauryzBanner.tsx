@@ -86,7 +86,7 @@ const NauryzBanner = () => {
             {t.cta}
           </Button>
 
-          <div className="text-4xl tracking-widest">🌷🌷🌷</div>
+          
         </div>
       </div>
     </div>
