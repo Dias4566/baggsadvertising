@@ -44,43 +44,43 @@ const NauryzBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-secondary/70 backdrop-blur-sm animate-in fade-in duration-300">
       <div
-        className="relative mx-4 max-w-2xl w-full rounded-3xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300"
+        className="relative mx-4 w-full max-w-2xl overflow-hidden rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300"
         style={{ fontFamily: "'Times New Roman', Times, serif" }}
       >
-        {/* Background image */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 scale-105 bg-cover bg-center blur-[1.5px]"
           style={{ backgroundImage: `url(${nauryzBg})` }}
         />
 
-        {/* Dark gradient overlay for readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/35 to-black/45" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,hsl(var(--secondary)/0.68)_0%,hsl(var(--secondary)/0.58)_38%,hsl(var(--secondary)/0.34)_100%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 via-secondary/42 to-secondary/56" />
 
-        {/* Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center p-10 md:p-16 text-center space-y-5">
-          {/* Close button */}
+        <div className="relative z-10 flex min-h-[360px] flex-col items-center justify-center px-6 py-12 text-center sm:px-10 sm:py-14 md:min-h-[420px] md:px-16 md:py-16">
           <button
             onClick={handleClose}
-            className="absolute top-4 right-4 text-white/80 hover:text-white transition-colors"
+            className="absolute right-4 top-4 text-secondary-foreground/85 transition-colors hover:text-secondary-foreground"
+            aria-label="Close promotional banner"
           >
-            <X className="w-7 h-7" />
+            <X className="h-7 w-7" />
           </button>
 
-          {/* Topline */}
           <span
-            className="text-sm md:text-base uppercase text-white/90 font-semibold"
-            style={{ letterSpacing: "0.3em" }}
+            className="mb-4 text-[0.7rem] font-semibold uppercase text-secondary-foreground sm:text-sm md:text-base"
+            style={{
+              letterSpacing: "0.14em",
+              textShadow: "0 2px 8px rgba(0,0,0,0.6)",
+            }}
           >
             {t.topline}
           </span>
 
           <h2
-            className="text-4xl md:text-5xl font-bold text-white"
+            className="max-w-xl text-[2.15rem] font-bold leading-[1.05] text-secondary-foreground sm:text-5xl md:text-6xl"
             style={{
               fontFamily: "'Times New Roman', Times, serif",
-              textShadow: "0 2px 12px rgba(0,0,0,0.5)",
+              textShadow: "0 2px 8px rgba(0,0,0,0.6)",
             }}
           >
             {t.title}
@@ -91,13 +91,10 @@ const NauryzBanner = () => {
               handleClose();
               document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
             }}
-            className="mt-4 px-14 py-7 text-xl md:text-2xl font-bold rounded-full border-2 hover:scale-105 transition-transform"
+            className="mt-7 min-h-[60px] rounded-full border border-primary/70 bg-primary px-10 py-4 text-lg font-extrabold text-primary-foreground shadow-[0_12px_28px_hsl(var(--secondary)/0.42),0_0_0_1px_hsl(var(--primary)/0.28)] transition-all hover:scale-105 hover:bg-primary sm:px-14 sm:py-5 sm:text-xl md:mt-8 md:min-h-[68px] md:text-2xl"
             style={{
-              background: "linear-gradient(135deg, #c8a43a, #f5d76e)",
-              color: "#1a4a2a",
-              borderColor: "#f5d76e",
               fontFamily: "'Times New Roman', Times, serif",
-              boxShadow: "0 8px 30px rgba(200, 164, 58, 0.45)",
+              textShadow: "0 1px 0 rgba(255,255,255,0.15)",
             }}
             size="lg"
           >
