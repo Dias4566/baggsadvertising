@@ -23,19 +23,16 @@ const NauryzBanner = () => {
 
   const content = {
     en: {
-      title: "Happy Nauryz! 🌷",
-      message: "Enjoy a 10% discount on your order in the next 5 days!",
-      cta: "Get in Touch",
+      title: "Your Nauryz Gift: -10% on Orders!",
+      cta: "Claim -10%",
     },
     ru: {
-      title: "С Наурызом! 🌷",
-      message: "Скидка 10% на ваш заказ в течение 5 дней!",
-      cta: "Связаться",
+      title: "Ваш подарок к наурызу: -10% на заказ!",
+      cta: "Забрать -10%",
     },
     kk: {
-      title: "Наурыз мейрамы құтты болсын! 🌷",
-      message: "5 күн ішінде тапсырысыңызға 10% жеңілдік!",
-      cta: "Байланысу",
+      title: "Наурызға сыйлық: тапсырысқа -10%!",
+      cta: "Жеңілдікті алу",
     },
   };
 
