@@ -23,19 +23,16 @@ const NauryzBanner = () => {
 
   const content = {
     en: {
-      title: "Happy Nauryz! 🌷",
-      message: "Enjoy a 10% discount on your order in the next 5 days!",
-      cta: "Get in Touch",
+      title: "Your Nauryz Gift: -10% on Orders!",
+      cta: "Claim -10%",
     },
     ru: {
-      title: "С Наурызом! 🌷",
-      message: "Скидка 10% на ваш заказ в течение 5 дней!",
-      cta: "Связаться",
+      title: "Ваш подарок к наурызу: -10% на заказ!",
+      cta: "Забрать -10%",
     },
     kk: {
-      title: "Наурыз мейрамы құтты болсын! 🌷",
-      message: "5 күн ішінде тапсырысыңызға 10% жеңілдік!",
-      cta: "Байланысу",
+      title: "Наурызға сыйлық: тапсырысқа -10%!",
+      cta: "Жеңілдікті алу",
     },
   };
 
@@ -54,8 +51,6 @@ const NauryzBanner = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${nauryzBg})` }}
         />
-        {/* Dark overlay for readability */}
-        <div className="absolute inset-0 bg-black/50" />
 
         {/* Content */}
         <div className="relative z-10 p-10 md:p-14 text-center space-y-6">
@@ -67,21 +62,12 @@ const NauryzBanner = () => {
             <X className="w-7 h-7" />
           </button>
 
-          <div className="text-4xl tracking-widest">🌷🌷🌷</div>
-
           <h2
             className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg"
             style={{ fontFamily: "'Times New Roman', Times, serif" }}
           >
             {t.title}
           </h2>
-
-          <p
-            className="text-xl md:text-2xl text-white/90 drop-shadow-md"
-            style={{ fontFamily: "'Times New Roman', Times, serif" }}
-          >
-            {t.message}
-          </p>
 
           <Button
             onClick={() => {
@@ -100,7 +86,7 @@ const NauryzBanner = () => {
             {t.cta}
           </Button>
 
-          <div className="text-4xl tracking-widest">🌷🌷🌷</div>
+          
         </div>
       </div>
     </div>
