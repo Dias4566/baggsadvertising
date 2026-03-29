@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import NauryzBanner from "@/components/NauryzBanner";
+
 import About from "@/components/About";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <NauryzBanner />
+      
       <Header />
       <Hero />
       <About />
